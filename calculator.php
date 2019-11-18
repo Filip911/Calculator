@@ -2,12 +2,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-<title>Calculator</title>	
+<title>Calculator</title>
 </head>
 
 <body>
 
-<form>
+	<p>
+
+	<form>
 	<input type="text" name="num1" placeholder="number1">
 	<input type="text" name="num2" placeholder="number2">
 	<select name="operator">
@@ -15,7 +17,7 @@
 		<option>Add</option>
 		<option>Subtract</option>
 		<option>Multyply</option>
-		<option>Divide</option>
+		<option>Divide/</option>
 	</select>
 	<br>
 	<button type="submit" name="submit" value="submit">Calculate</button>
